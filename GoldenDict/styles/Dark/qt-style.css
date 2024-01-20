@@ -73,6 +73,7 @@ QToolButton
   font-family: "Segoe UI", "Noto Sans", sans-serif;
   color:      #C7CBD3;
   background: #2B3339;
+  border-radius: 4px;
 }
 QComboBox,
 QGroupBox,
@@ -81,6 +82,7 @@ QPlainTextEdit,
 QPushButton
 {
   border: 1px solid #4E5B65;
+  border-radius: 4px;
 }
 QLineEdit:focus,
 QPlainTextEdit:focus,
@@ -1023,6 +1025,7 @@ MainWindow #favoritesPane #favoritesTree
   color:            #C7CBD3;
   background:       #2B3339;
   border: 1px solid #4E5B65;
+  border-radius: 4px;
 }
 MainWindow #searchPane    #translateLine:focus
 {
@@ -1183,7 +1186,7 @@ MainWindow #navToolbar GroupComboBox
   color:            #C7CBD3;
   background:       #2B3339;
   border: 1px solid #4E5B65;
-  border-radius:        0px;
+  border-radius: 4px;
   padding-left:         5px;
 }
 MainWindow #navToolbar GroupComboBox:on
@@ -1255,7 +1258,7 @@ MainWindow #navToolbar #translateLine
   color:            #C7CBD3;
   background:       #2B3339;
   border: 1px solid #4E5B65;
-  border-radius:        0px;
+  border-radius: 4px;
   padding:              1px;
 }
 MainWindow #navToolbar #translateLine:hover
@@ -1425,7 +1428,7 @@ ScanPopup #groupList
   color:            #C7CBD3;
   background:       #2B3339;
   border: 1px solid #4E5B65;
-  border-radius:        0px;
+  border-radius: 4px;
   padding-left:         4px;
 }
 ScanPopup #groupList:on
@@ -1497,7 +1500,7 @@ ScanPopup #translateLine
   color:            #C7CBD3;
   background:       #2B3339;
   border: 1px solid #4E5B65;
-  border-radius:        0px;
+  border-radius: 4px;
   width:               12em;
   padding:  0px 1px 2px 1px;
 }
@@ -2141,7 +2144,7 @@ QDialog[windowTitle*="GoldenDict"] QTreeView:focus
 {
   border: 1px solid #232B30;
 }
-QDialog[windowTitle*="GoldenDict"] QTreeView::branch:has-siblings:!adjoins-item
+/* QDialog[windowTitle*="GoldenDict"] QTreeView::branch:has-siblings:!adjoins-item
 {
   border-image: url('./icons/dark-tv-vline.svg');
 }
@@ -2152,7 +2155,7 @@ QDialog[windowTitle*="GoldenDict"] QTreeView::branch:has-siblings:adjoins-item
 QDialog[windowTitle*="GoldenDict"] QTreeView::branch:!has-children:!has-siblings:adjoins-item
 {
   border-image: url('./icons/dark-tv-branch-end.svg');
-}
+} */
 
 /* ====== REVERT TO WIDE SCROLLBARS IN 2 LAST DIALOGS ====== */
 QDialog[windowTitle*="GoldenDict"] QTextBrowser QScrollBar:horizontal,

@@ -282,6 +282,7 @@ a.dsl_url:hover
 
   background:       #D8DDE6;
   border: 1px solid #D8DDE6;
+  border-radius: 8px;
 }
 .gdactivearticle
 {
@@ -307,7 +308,7 @@ a.dsl_url:hover
   font-size:     .85em;
   font-weight:  normal;
   float:         right;
-  margin:         -6px;
+  margin:         -5px;
   margin-bottom:   5px;
   margin-left:     2px;
   padding: .3em .3em .2em .6em;
@@ -316,12 +317,15 @@ a.dsl_url:hover
   background: #C7CBD3;
   border-top:    none;
   border-right:  none;
-  border-left:   1px solid #000000;
-  border-bottom: 1px solid #000000;
+  border-left:   none;
+  border-bottom: none;
 
   -webkit-user-select: none;
   user-select:         none;
   cursor:           default;
+
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 
 /* actual text with the dictionary title */
@@ -336,7 +340,7 @@ a.dsl_url:hover
   font-size:     .85em;
   font-weight:  normal;
   float:         right;
-  margin:         -6px;
+  margin:         -5px;
   margin-bottom:   5px;
   margin-left:     2px;
   padding: .3em .3em .2em .6em;
@@ -345,8 +349,8 @@ a.dsl_url:hover
   background: #0080FF;
   border-top:    none;
   border-right:  none;
-  border-left:   1px solid #0080FF;
-  border-bottom: 1px solid #0080FF;
+  border-left:   none;
+  border-bottom: none;
 }
 .gdcollapsedarticle .gddictname
 {
